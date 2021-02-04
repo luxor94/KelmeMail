@@ -26,7 +26,7 @@ header .wrapper {
 header .kelme {
     width: 400px;
     height: 80px;
-    background-image: url('/image/kelme.png');
+    background-image: url('./image/kelme.png');
     background-repeat: no-repeat;
     background-size: contain;
     justify-self: center;
@@ -36,7 +36,7 @@ header .kelme {
 header .seco {
     width: 350px;
     height: 80px;
-    background-image: url('/image/seco.png');
+    background-image: url('./image/seco.png');
     background-repeat: no-repeat;
     background-size: contain;
     justify-self: center;
@@ -137,25 +137,25 @@ button p {
 
 
 .ozon {
-    background: url('/image/ozon.png') no-repeat center center;
+    background: url('./image/ozon.png') no-repeat center center;
     background-size: contain;
     height: 50px;
 }
 
 .wb {
-    background: url('/image/wb.png') no-repeat center center;
+    background: url('./image/wb.png') no-repeat center center;
     background-size: contain;
     height: 50px;
 }
 
 .lamoda {
-    background: url('/image/lamoda.png') no-repeat center center;
+    background: url('./image/lamoda.png') no-repeat center center;
     background-size: contain;
     height: 50px;
 }
 
 .aliexpress {
-    background: url('/image/aliexpress.png') no-repeat center center;
+    background: url('./image/aliexpress.png') no-repeat center center;
     background-size: contain;
     height: 50px;
 }
@@ -186,31 +186,31 @@ button p {
 }
 
 .dinamo {
-    background: url('/image/dinamo.png') no-repeat center center;
+    background: url('./image/dinamo.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .baskonia {
-    background: url('/image/Baskonia.png') no-repeat center center;
+    background: url('./image/Baskonia.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .espanyol {
-    background: url('/image/Espanyol.png') no-repeat center center;
+    background: url('./image/Espanyol.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .wotford {
-    background: url('/image/Watford.png') no-repeat center center;
+    background: url('./image/Watford.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .alaves {
-    background: url('/image/Alaves.png') no-repeat center center;
+    background: url('./image/Alaves.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
@@ -251,7 +251,7 @@ footer p {
 .telegram {
     width: 25px;
     height: 25px;
-    background: url('/image/telegram-512.png');
+    background: url('./image/telegram-512.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -259,7 +259,7 @@ footer p {
 .viber {
     width: 25px;
     height: 25px;
-    background: url('/image/viber.png');
+    background: url('./image/viber.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -267,7 +267,7 @@ footer p {
 .whatsapp {
     width: 25px;
     height: 25px;
-    background: url('/image/whatsapp-icon.png');
+    background: url('./image/whatsapp-icon.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
