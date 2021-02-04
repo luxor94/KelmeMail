@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    
+}
+
+body {
+    background: rgb(252, 252, 252);
+}
+
+header .wrapper {
+    background-color: black;
+    max-width: 1000px;
+    padding: 20px 40px;
+    width: 800px;
+    height: 160px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+header .kelme {
+    width: 400px;
+    height: 80px;
+    background-image: url('/image/kelme.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-self: center;
+    grid-row: 1;
+}
+
+header .seco {
+    width: 350px;
+    height: 80px;
+    background-image: url('/image/seco.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-self: center;
+    grid-row: 2;
+    
+}
+
+header .sport {
+    width: 350px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+.download {
+    max-width: 1000px;
+    padding: 10px 40px;
+    width: 800px;
+    height: 100px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    background-color: #707070;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+}
+
+button p {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+}
+
+.b2b {
+    max-width: 1000px;
+    padding: 20px 40px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+.b2b .text {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.b2b .text p {
+    text-align: center;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reviews {
+    background-color: #F7F7F7;
+    max-width: 1000px;
+    padding: 20px 40px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clints {
+    padding: 20px;
+    width: 800px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+
+.ozon {
+    background: url('/image/ozon.png') no-repeat center center;
+    background-size: contain;
+    height: 50px;
+}
+
+.wb {
+    background: url('/image/wb.png') no-repeat center center;
+    background-size: contain;
+    height: 50px;
+}
+
+.lamoda {
+    background: url('/image/lamoda.png') no-repeat center center;
+    background-size: contain;
+    height: 50px;
+}
+
+.aliexpress {
+    background: url('/image/aliexpress.png') no-repeat center center;
+    background-size: contain;
+    height: 50px;
+}
+
+.team {
+    background-color: white;
+    max-width: 1000px;
+    padding: 20px 40px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.teamlogo {
+    padding: 20px;
+    width: 800px;
+    height: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+.dinamo {
+    background: url('/image/dinamo.png') no-repeat center center;
+    background-size: contain;
+    height: 120px;
+}
+
+.baskonia {
+    background: url('/image/Baskonia.png') no-repeat center center;
+    background-size: contain;
+    height: 120px;
+}
+
+.espanyol {
+    background: url('/image/Espanyol.png') no-repeat center center;
+    background-size: contain;
+    height: 120px;
+}
+
+.wotford {
+    background: url('/image/Watford.png') no-repeat center center;
+    background-size: contain;
+    height: 120px;
+}
+
+.alaves {
+    background: url('/image/Alaves.png') no-repeat center center;
+    background-size: contain;
+    height: 120px;
+}
+
+footer {
+    max-width: 1000px;
+    padding: 10px 40px;
+    width: 800px;
+    margin: 0 auto;
+    height: 125px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer p, a {
+    color: rgb(167, 166, 166);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer p {
+    padding: 5px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    padding: 0px 5px;
+}
+
+.telegram {
+    width: 25px;
+    height: 25px;
+    background: url('/image/telegram-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.viber {
+    width: 25px;
+    height: 25px;
+    background: url('/image/viber.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.whatsapp {
+    width: 25px;
+    height: 25px;
+    background: url('/image/whatsapp-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.adress a {
+    padding-left: 8px;
+}
+
+a:hover {
+    color: white;
+}
+
+.social div:hover {
+    opacity: 0.5;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+header .wrapper .seco:hover {
+    opacity: 0.5;
+}
+header .wrapper .kelme:hover {
+    opacity: 0.5;
+}
+
+.clints div:hover {
+    opacity: 0.5;
+}
+
+.teamlogo div:hover {
+    opacity: 0.5;
+}
