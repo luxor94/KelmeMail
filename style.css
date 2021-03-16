@@ -2,55 +2,49 @@
     margin: 0;
 }
 
-header {
-    width: 100%;
-    
-}
 
 body {
     background: rgb(252, 252, 252);
 }
 
-header .wrapper {
+table {
+    width: 800px;
+    margin: 0 auto;
+    border: none;
+}
+
+.wrapper {
     background-color: black;
     max-width: 1000px;
     padding: 20px 40px;
-    width: 800px;
-    height: 160px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
     margin: 0 auto;
 }
 
-header .kelme {
-    width: 400px;
-    height: 80px;
-    background-image: url('./image/kelme.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-self: center;
-    grid-row: 1;
+table tr td {
+    border: none;
 }
 
-header .seco {
-    width: 350px;
+.kelme {
+    width: 400px;
     height: 80px;
-    background-image: url('./image/seco.png');
+    background-image: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/kelme.png');
     background-repeat: no-repeat;
     background-size: contain;
     justify-self: center;
-    grid-row: 2;
+}
+
+.seco {
+    width: 350px;
+    height: 80px;
+    background-image: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/seco.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-self: center;
     
 }
 
-header .sport {
-    width: 350px;
-    justify-self: center;
-    align-self: center;
-    grid-column: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+.sport {
+    width: 400px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -61,33 +55,31 @@ main {
     width: 100%;
 }
 
+
 .download {
-    max-width: 1000px;
-    padding: 10px 40px;
-    width: 800px;
-    height: 100px;
     background-color: #F7F7F7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 0 auto;
+    text-align: center;
+    padding: 10px;
 }
+
+
 
 button {
     margin-top: 15px;
     width: 180px;
     height: 50px;
-    background-color: #707070;
+    background-color: #b3b3b3;
     border: none;
     border-radius: 40px;
     outline: none;
 }
 
-button p {
+.download button p {
     
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;
+    font-size: 35px;
+    color: black;
 }
 
 .b2b {
@@ -110,15 +102,22 @@ button p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+.client p {
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 .reviews {
     background-color: #F7F7F7;
     max-width: 1000px;
-    padding: 20px 40px;
     width: 800px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    height: 100px;
+    margin: 0 auto;;
     align-items: center;
+    margin-top: 40px;
 }
 
 .reviews p {
@@ -126,38 +125,35 @@ button p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.clints {
-    padding: 20px;
-    width: 800px;
-    height: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 40px;
-}
-
 
 .ozon {
-    background: url('./image/ozon.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/ozon.png') no-repeat center center;
     background-size: contain;
     height: 50px;
+
+
 }
 
 .wb {
-    background: url('./image/wb.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/wb.png') no-repeat center center;
     background-size: contain;
     height: 50px;
+
+    
 }
 
 .lamoda {
-    background: url('./image/lamoda.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/lamoda.png') no-repeat center center;
     background-size: contain;
     height: 50px;
+
 }
 
 .aliexpress {
-    background: url('./image/aliexpress.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/aliexpress.png') no-repeat center center;
     background-size: contain;
-    height: 50px;
+    height: 40px;
+    
 }
 
 .team {
@@ -166,10 +162,7 @@ button p {
     padding: 20px 40px;
     width: 800px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    }
 
 .team p {
     text-align: center;
@@ -186,62 +179,61 @@ button p {
 }
 
 .dinamo {
-    background: url('./image/dinamo.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/dinamo.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .baskonia {
-    background: url('./image/Baskonia.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/Baskonia.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .espanyol {
-    background: url('./image/Espanyol.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/Espanyol.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .wotford {
-    background: url('./image/Watford.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/Watford.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
 .alaves {
-    background: url('./image/Alaves.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/Alaves.png') no-repeat center center;
     background-size: contain;
     height: 120px;
 }
 
-footer {
-    max-width: 1000px;
-    padding: 10px 40px;
-    width: 800px;
+.contacts {
+
+    padding: 10px 10px;
     margin: 0 auto;
-    height: 125px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     background-color: black;
+    
+}
+
+.contacts tr td {
+    width: 50%;
 }
 
 a {
     text-decoration: none;
 }
 
-footer p, a {
+.contacts p, a {
     color: rgb(167, 166, 166);;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    padding: 5px 0;
 }
 
-footer p {
-    padding: 5px;
-}
 
 .social {
-    display: flex;
+    display: inline-block;
 }
 
 .social a {
@@ -251,7 +243,7 @@ footer p {
 .telegram {
     width: 25px;
     height: 25px;
-    background: url('./image/telegram-512.png');
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/telegram-512.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -259,7 +251,7 @@ footer p {
 .viber {
     width: 25px;
     height: 25px;
-    background: url('./image/viber.png');
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/viber.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -267,7 +259,7 @@ footer p {
 .whatsapp {
     width: 25px;
     height: 25px;
-    background: url('./image/whatsapp-icon.png');
+    background: url('https://raw.githubusercontent.com/luxor94/KelmeMail/gh-pages/image/whatsapp-icon.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
